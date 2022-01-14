@@ -10,13 +10,14 @@
     border-radius: 10px;
     position: relative;
     margin: 15px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .photo img{
     width: 100%;
     border-radius: 10px;
 }
 .photo-datail{
+    padding: 10px;
     display: none;
     position: absolute;
     top: 0;
@@ -30,6 +31,7 @@
 .photo-datail h3{
     background-color: black;
     color: white;
+    padding: 5px;
 }
 .photo-datail p{
     color: white;
